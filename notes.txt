@@ -1,0 +1,8 @@
+25 mins
+5 min break - short
+15 min break - long
+
+-start turns into stop when clicked and vice versa
+-reset button
+
+-adjust break time / long or short break
