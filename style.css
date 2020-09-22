@@ -5,8 +5,6 @@ body {
     background-color: #f35d56;
 }
 
-
-
 .container {
     background-color: #f26c67;
     border-radius: 3%;
@@ -20,7 +18,6 @@ body {
 .settings {
     margin-top: 5%;
 }
-
 
 .settings button {
     font-family: 'Nunito', sans-serif;
@@ -42,7 +39,6 @@ body {
     margin: 5px;
 }
 
-
 #startButton {
     border: none;
     font-family: 'Nunito', sans-serif;
@@ -60,4 +56,10 @@ body {
 #startButton, .settings button:hover {
     cursor: pointer;
 }
+
+#pomodoro {
+    background-color: #ce5c58;
+}
+
+
 
