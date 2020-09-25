@@ -58,7 +58,7 @@ startBtn.addEventListener('click', () => {
     } else {
         clockTimer = setInterval(() => {
             countdown()
-        }, 1)
+        }, 1000)
         isClockRunning = true
         startBtn.innerHTML = 'STOP'
         soundEffect.src = '';
