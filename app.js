@@ -31,20 +31,19 @@ function countdown() {
     time--;
         if (minutes == 0 && seconds == 00) {
             clearInterval(clockTimer)
-            
             soundEffect.src = 'http://onj3.andrelouis.com/phonetones/unzipped/Alcatel%20Idol%20X/ringtones/Gene.mp3';
             soundEffect.play();
+            title.innerHTML = `Times Up!`
                 if (pomodoro.classList.contains("active")) {
                     shortBreakActive()
-                    reset()
-                    title.innerHTML = `Times Up!`
+                    reset() 
                 } else {
                     pomodoroActive()
                     reset()
-                    title.innerHTML = `Times Up!`
                 }
         }
 }
+            
     
         
 // Start/Stop button logic
